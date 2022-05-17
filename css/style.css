@@ -42,7 +42,7 @@ body {
 .hero-container {
   height: 102vh;
   margin-top: -10px;
-  filter: brightness(85%);
+  /* filter: brightness(85%); */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -427,8 +427,7 @@ footer ul {
 .about-left {
   width: 50%;
   height: 600px;
-  background: url(../assets/images/palm-free-family.jpg) no-repeat center /
-    cover;
+  background: url(../assets/images/sorchaAboutUs.png) no-repeat center / cover;
   border-radius: 8px;
 }
 
@@ -459,7 +458,7 @@ footer ul {
   .about-page-container,
   .our-method-container {
     flex-direction: column;
-    margin-top: 100px;
+    margin: 3rem 0 10rem 0;
   }
   .about-left {
     width: 100%;
