@@ -553,6 +553,10 @@ footer ul {
 /* CONTACT US 
 /*******************************************/
 
+.contact-logo {
+  width: 200px;
+}
+
 .contact-hero {
   height: 100vh;
   filter: brightness(95%);
