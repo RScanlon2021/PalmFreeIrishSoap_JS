@@ -471,7 +471,10 @@ footer ul {
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
+  .page-header {
+    font-size: 4rem;
+  }
   .about-page-container,
   .our-method-container {
     width: 95%;
