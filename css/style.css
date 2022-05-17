@@ -554,7 +554,7 @@ footer ul {
 /*******************************************/
 
 .contact-logo {
-  width: 50%;
+  max-width: 50%;
 }
 
 .contact-hero {
@@ -620,5 +620,11 @@ textarea {
   input,
   textarea {
     width: 95%;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .contact-logo {
+    display: none;
   }
 }

@@ -45,7 +45,7 @@ toggleBtn.addEventListener("click", (e) => {
   navbarLinks.forEach((el) => el.classList.toggle("active"));
 });
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////GALLERY PAGE
+////////////////////////////////////////////////////////////////////////////////GALLERY PAGE
 
 const panels = document.querySelectorAll(".panel");
 
@@ -61,3 +61,13 @@ function removeActiveClass() {
     panel.classList.remove("gallery-active");
   });
 }
+
+////////////////////////////////////////////////////////////////////////////////CONTACT PAGE
+
+// console.log(window.innerHeight);
+
+// if (window.innerHeight < 600) {
+//   console.log("less than 600");
+// } else {
+//   console.log("more than 600");
+// }
