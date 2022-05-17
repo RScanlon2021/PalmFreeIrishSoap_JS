@@ -553,10 +553,6 @@ footer ul {
 /* CONTACT US 
 /*******************************************/
 
-.contact-logo {
-  max-width: 50%;
-}
-
 .contact-hero {
   height: 100vh;
   filter: brightness(95%);
@@ -576,6 +572,10 @@ footer ul {
   height: 100vh;
   background-color: rgba(18, 15, 15, 0.098);
   width: 33%;
+}
+
+.contact-logo {
+  max-width: 50%;
 }
 
 .contact-form {
@@ -610,10 +610,12 @@ textarea {
   .form-container {
     width: 100%;
   }
-
   input,
   textarea {
     width: 75%;
+  }
+  .contact-logo {
+    width: 35%;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -621,10 +623,19 @@ textarea {
   textarea {
     width: 95%;
   }
+  .form-container {
+    justify-content: space-evenly;
+  }
+  .contact-logo {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-height: 550px) {
   .contact-logo {
     display: none;
+  }
+  .form-control {
+    height: 4rem;
   }
 }
