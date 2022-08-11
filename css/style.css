@@ -666,6 +666,12 @@ textarea {
   z-index: 10;
 }
 
+@media only screen and (max-width: 600px) {
+  .modal {
+    width: 90%;
+  }
+}
+
 .overlay {
   position: absolute;
   top: 0;
